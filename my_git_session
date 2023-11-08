@@ -1,0 +1,1144 @@
+Script started on 2023-11-08 14:17:51+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="120" LINES="30"]
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ git --version
+git version 2.25.1
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ sudo g[Kapt install git-all
+[sudo] password for satyam: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+[1;31mE: [0mUnable to locate package git-all[0m
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ sudo apt install git-all[K[K[K[K
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+git is already the newest version (1:2.25.1-1ubuntu3.2).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ git congio[K[K[Kfig --list  --show-origin
+[?1h=file:.git/config        core.repositoryformatversion=0[m
+file:.git/config        core.filemode=false[m
+file:.git/config        core.bare=false[m
+file:.git/config        core.logallrefupdates=true[m
+file:.git/config        core.symlinks=false[m
+file:.git/config        core.ignorecase=true[m
+:[K[K[?1l>]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ 
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ git congif[K[K[Kfig --glov[Kbal user.name "Satym Ku[K[K[K[Kam Kumar"
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ git config --global user.name "Satyam Kumar"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kemi[Kail satyam.kumar@tigeranalytics.com
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ git config --global user.email satyam.kumar@tigeranalytics.com[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcore.editor emacs
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ git config --global init.defaultBrn[Kanch main
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ git cn[Konfig --list
+[?1h=user.name=Satyam Kumar[m
+user.email=satyam.kumar@tigeranalytics.com[m
+core.editor=emacs[m
+init.defaultbranch=main[m
+core.repositoryformatversion=0[m
+core.filemode=false[m
+:[K[K[?1l>]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ git cong[Kfig usrer[K[K[Ker.name
+Satyam Kumar
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ git add -h
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    --renormalize         renormalize EOL of tracked files (implies -u)
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+    --chmod (+|-)x        override the executable bit of the listed files
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ cd Ondr[K[K[K[KOnd[KeDrive/Desktop
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/OneDrive/Desktop[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/OneDrive/Desktop[00m$ cd ..
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/OneDrive[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/OneDrive[00m$ cd ..
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ ls
+[0m[34;42m'3D Objects'[0m
+ [34;42mAppData[0m
+[01;36m'Application Data'[0m
+ [34;42mContacts[0m
+ [01;36mCookies[0m
+ [34;42mDepression_Detection[0m
+ [34;42mDesktop[0m
+ [34;42mDocuments[0m
+ [34;42mDownloads[0m
+ [34;42mFavorites[0m
+ [34;42mII[0m
+ [34;42mIntelGraphicsProfiles[0m
+ [34;42mLinks[0m
+[01;36m'Local Settings'[0m
+ [34;42mML[0m
+ [34;42mMicrosoft[0m
+ [34;42mMovie_Recommendation_System[0m
+ [34;42mMusic[0m
+[01;36m'My Documents'[0m
+ [01;32mNTUSER.DAT[0m
+ [01;32mNTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf[0m
+ [01;32mNTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms[0m
+ [01;32mNTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms[0m
+ [01;36mNetHood[0m
+ [34;42mOneDrive[0m
+ [34;42mPostman[0m
+ [01;36mPrintHood[0m
+ [01;36mRecent[0m
+[34;42m'Saved Games'[0m
+ [34;42mSearches[0m
+ [01;36mSendTo[0m
+[01;36m'Start Menu'[0m
+ [01;36mTemplates[0m
+ [01;32mUntitled1.ipynb[0m
+ [34;42mVideos[0m
+ [34;42meclipse[0m
+ [01;32mntuser.dat.LOG1[0m
+ [01;32mntuser.dat.LOG2[0m
+ [01;32mntuser.ini[0m
+ [01;32mtake_away_assignment_2.ipynb[0m
+ [34;42mtest[0m
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ cd Documents
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/Documents[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/Documents[00m$ ls
+[0m[01;36m'My Music'[0m  [40;31;01m'My Pictures'[0m  [01;36m'My Videos'[0m   [34;42mworkspace-spring-tool-suite-4-4.18.1.RELEASE[0m
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/Documents[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/Documents[00m$ cd Pictures
+bash: cd: Pictures: No such file or directory
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/Documents[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/Documents[00m$ cd ..
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ cd my_project
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git init
+Initialized empty Git repository in /mnt/c/Users/ksaty/my_project/.git/
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git add *.c
+fatal: pathspec '*.c' did not match any files
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git clone ^V[Khttps://github.com/ksat-ta/test-tem[K[Kamplet[K[Kep.git
+Cloning into 'test-tamplep'...
+Username for 'https://github.com': ksat-ta
+Password for 'https://ksat-ta@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/ksat-ta/test-tamplep.git/'
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git clone https://github.com/ksat-ta/test-tamplep.git
+Cloning into 'test-tamplep'...
+Username for 'https://github.com': ksat-ta
+Password for 'https://ksat-ta@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/ksat-ta/test-tamplep.git/'
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git clone https://github.com/ksat-ta/test-tamplep.git
+Cloning into 'test-tamplep'...
+Username for 'https://github.com': ksat-ta
+Password for 'https://ksat-ta@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/ksat-ta/test-tamplep.git/'
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git clone https://github.com/ksat-ta/test-tamplep.git
+Cloning into 'test-tamplep'...
+Username for 'https://github.com': satyam.kumar@tigeranalytics.com
+Password for 'https://satyam.kumar@tigeranalytics.com@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/ksat-ta/test-tamplep.git/'
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git clone https://github.com/ksat-ta/test-tamplep.git
+Cloning into 'test-tamplep'...
+Username for 'https://github.com': ksat-ta
+Password for 'https://ksat-ta@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/ksat-ta/test-tamplep.git/'
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git@github.com:ksat-ta/test-tampley[Kp.git
+bash: git@github.com:ksat-ta/test-tamplep.git: No such file or directory
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ ssh-keygen -t rsa -b 4096
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/satyam/.ssh/id_rsa): 
+Created directory '/home/satyam/.ssh'.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/satyam/.ssh/id_rsa
+Your public key has been saved in /home/satyam/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:wlM7mNJcm7O/QA0UGrOF+0vprZSIRBsPACL/s/k6OGQ satyam@DESKTOP-NVULGEG
+The key's randomart image is:
++---[RSA 4096]----+
+|+..   o.+.       |
+|o. .  .B         |
+|  . + o.+        |
+|   o O.= *       |
+|    * X.S..      |
+|  E. * =+=       |
+| o .+ .o=o       |
+|  o .. .oo.      |
+|   ..o. ..o.     |
++----[SHA256]-----+
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ cd ./
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ cd ..
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ cd ..
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users[00m$  cd ..
+]0;satyam@DESKTOP-NVULGEG: /mnt/c[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c[00m$ cd ..
+]0;satyam@DESKTOP-NVULGEG: /mnt[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt[00m$ cd ..
+]0;satyam@DESKTOP-NVULGEG: /[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/[00m$ cd /home/satyam
+]0;satyam@DESKTOP-NVULGEG: ~[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m~[00m$ cd /home/satyam[K[K[K[K[K[K[K
+]0;satyam@DESKTOP-NVULGEG: /home[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/home[00m$ cd satyam
+]0;satyam@DESKTOP-NVULGEG: ~[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m~[00m$ cd satyam/satyam
+bash: cd: /satyam: No such file or directory
+]0;satyam@DESKTOP-NVULGEG: ~[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m~[00m$ ls
+]0;satyam@DESKTOP-NVULGEG: ~[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m~[00m$ cd home[K[K[K[K/home
+]0;satyam@DESKTOP-NVULGEG: /home[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/home[00m$ ls
+[0m[01;34msatyam[0m
+]0;satyam@DESKTOP-NVULGEG: /home[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/home[00m$ cd satya,[K[Kam
+]0;satyam@DESKTOP-NVULGEG: ~[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m~[00m$ cd satyam[K[K[K[K[K[K/home
+]0;satyam@DESKTOP-NVULGEG: /home[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/home[00m$ cd /satyam
+bash: cd: /satyam: No such file or directory
+]0;satyam@DESKTOP-NVULGEG: /home[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/home[00m$ ls
+[0m[01;34msatyam[0m
+]0;satyam@DESKTOP-NVULGEG: /home[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/home[00m$ cd satyam
+]0;satyam@DESKTOP-NVULGEG: ~[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m~[00m$ cd `
+> EXIT
+> exit
+> ^C
+]0;satyam@DESKTOP-NVULGEG: ~[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m~[00m$ cd `
+EXIT
+exit[A[A]0;satyam@DESKTOP-NVULGEG: ~[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m~[00m$ [C[C[Csatyam
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[Kcd ~/home
+bash: cd: /home/satyam/home: No such file or directory
+]0;satyam@DESKTOP-NVULGEG: ~[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m~[00m$ cd ~/id[K[K.ssh
+]0;satyam@DESKTOP-NVULGEG: ~/.ssh[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m~/.ssh[00m$ ls
+id_rsa  id_rsa.pub
+]0;satyam@DESKTOP-NVULGEG: ~/.ssh[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m~/.ssh[00m$ cat id_rsa
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAACFwAAAAdzc2gtcn
+NhAAAAAwEAAQAAAgEAuvGEqWk+FPgaaFZYcJOF2pt0avOza57d+Y8JJY99yLui1kuz45GH
+SYVKvCxz9Lms+O2m539uvNDi8T4NWW8ouYUEPwEBqhpFCsve/V28L/bVnxxPJnKalw7Vlk
+frsl5nWF5aZ43zNH8h0734TYKB2HekyDrJyXH/QYWxEY7uyU070b+ME+TE9qUjx+xjGg4f
+W5aABrSegSjNGantXHRsR13nxdcB/E0Myy3KXd1GQGsufUWBCHZec4W0F87BqHMxV4hjM1
+ahy9zlL7TOFMuvXHxbrH5/I99IL5zBSG5EisjagA/M62fBDvnonBBdl5zvoZ9OPGVPKP9D
+XLsORbm0D95ewIic1fACwQGHZpWJ2F02uBd4ljSTtsq5nePdMQKxWryr4BjwD7LMhMHUHi
+0KNPZd17GjowIwOVKzk0bfPEEkOx9k++BXIr0R956QBxpIvgzOX9tDhci8jZ6QWw6iEMKw
++SLDOvs2b9WZEQgEENvNwR22yI3wiPj3kT+BKYeoRhhTXFzIIgagw3I6H7JJJqAuWeZXy1
+p43M36Ktk+Fo4e2Dms9fhIVEX10yZOB4xUvrYchoKDR3WM/817gFNDDsUTSw4d52Cu9ohp
+duIPVt21bpxyWyHc5WOBshDiqOxHhtJJcnW+Y+3MIafSU4OFh/8N56b+bVPznzZufFH0x0
+UAAAdQvThrlb04a5UAAAAHc3NoLXJzYQAAAgEAuvGEqWk+FPgaaFZYcJOF2pt0avOza57d
++Y8JJY99yLui1kuz45GHSYVKvCxz9Lms+O2m539uvNDi8T4NWW8ouYUEPwEBqhpFCsve/V
+28L/bVnxxPJnKalw7Vlkfrsl5nWF5aZ43zNH8h0734TYKB2HekyDrJyXH/QYWxEY7uyU07
+0b+ME+TE9qUjx+xjGg4fW5aABrSegSjNGantXHRsR13nxdcB/E0Myy3KXd1GQGsufUWBCH
+Zec4W0F87BqHMxV4hjM1ahy9zlL7TOFMuvXHxbrH5/I99IL5zBSG5EisjagA/M62fBDvno
+nBBdl5zvoZ9OPGVPKP9DXLsORbm0D95ewIic1fACwQGHZpWJ2F02uBd4ljSTtsq5nePdMQ
+KxWryr4BjwD7LMhMHUHi0KNPZd17GjowIwOVKzk0bfPEEkOx9k++BXIr0R956QBxpIvgzO
+X9tDhci8jZ6QWw6iEMKw+SLDOvs2b9WZEQgEENvNwR22yI3wiPj3kT+BKYeoRhhTXFzIIg
+agw3I6H7JJJqAuWeZXy1p43M36Ktk+Fo4e2Dms9fhIVEX10yZOB4xUvrYchoKDR3WM/817
+gFNDDsUTSw4d52Cu9ohpduIPVt21bpxyWyHc5WOBshDiqOxHhtJJcnW+Y+3MIafSU4OFh/
+8N56b+bVPznzZufFH0x0UAAAADAQABAAACAElgm23TvWaFq/fgTH6DqTqRYjTIy1gm14Ip
+PrHbjMfJvrTWqhlc+flFtHwABtO8PcTHo4eiYVkDtNB0RtEf7KBFMdF5F6oo/YirVS+mJ0
+O8Y0U822R//2XjkLqYKE+u9mmdP2b+NMQaUrDGFDx4SXcqHyfoy2Oit0qEq2f07o1dH2nJ
+AbadSSJ214CVrKCBgpV0kXQQWVbhKQA1ztFHcWjh1yO0rTbXF3p40sHdJMIMUAcjzO4BaD
+l39aSSpzjzXh65jhaMnp1iayM6mNlYydBHj8Q5MrZl4fOuV7+SaJ0BEaLKkOilpQW32jHH
+yrTECNsrqI3URioVZ99yHLwJlD8qBDQcjgAihKloK3avZUw1ApfqkjCYhOPV/B18+7Wf2A
+isKK1CPQXDiek95d2AoU8WJESDr8CkB/m4ci1N2z2a72zNWK2d7S4ASXQl82xp+EGZE7Nn
+YxLzrQiEzgfaUdB3lIpM/cjKCz9856w6/iuz0DT80r0sE/vVIlzFNwZuPzZs6TjgGTw/c2
+L679EhkTQu3mipBLA76CSKdndPZ9iRnjr+ztCt5l8VIAKEvnbm/ZX4d+IbGEXhHWHugCGe
+Fd27KxGkcxHKzVp+gDHrB62hPg/BgJ6NiPFON8F0SHclKKPEhg3mAsIX6EPkXiS4e+ET1s
+TWNp+7L+HGS9YrjisBAAABAGR5GYlWU/a4OStGxgb29scZm5rYRjwPJKQGpyvSezB0MPHt
+siVxCF9A5u/mSWGuL1S7Cr6knChzxvhPDbvjvhfoYBFAyf2vT1/Qwe6Av17Fr1Qwnh9Sas
+PkumN8REsyPX+FVAagnAMJW3t1fOMP4mZRFxpNIJSkK+8Km6O+VcBXCTWc/g7JJk/VBSbL
+QIh5XpCMTG6aEfSY/z14YKPiAyVlExKhmSwJngV0/8T3WRDa3gLs60OaEq7JCq49EoX75Q
+R7h7DDw4R2TynGf652T53SzWhz0aYXrIPqgA4s91MSEU6QEyDcYi8+nuC0+EUTWq3wkyfD
+F5lLe0eu1JCmzU0AAAEBAOz64VSlvyrPJomV0YfbSjuRUEPrVdGty7E3SdqHCXOPqKxrP+
+n+lRAn1IDkC5Wdc+ch5IZbhr8MaO+Vypm/yO63cFpGM84o+skcx5CuH/Ky43Z2dEyntUrn
+j8hQ4Jw7N05aShSzkngIR3WmmmOAWwjBNuB4iVuJxDDiVC+rTymP4PsJRv4s6gBAkl5SYy
+ISfptpZ2IkZdX36DS2yRtvd/svA+AHEsCdbiUkPJ1shHu3iIKmcyO8dkgKNuUSNhkJ3M2N
+TVjw19O8pjGKvcLG8RsA+FM7B12E0aW/tOhCDyoOPpr630gX09urpdqpGMkQgnSBeC2TM5
+uQqouLoKia3nUAAAEBAMnyjzkKHCOdxRf/7JnNpghXNw0NW/xM2zAevGZk0UL2xz0ua3Mc
+O2BJuKemMksBwVf35Jmf4cmkaeElm8X/NkahvP0xnuJsdHzR/musI8RhEuazgv4frB7FyI
+RMpd9/JNXbLuZ98jyucObm3kYlxz1+ijBtjsiAuU5UrBaayFyviUITIbyHv+t4QDiekf7k
+3/yfdCJhj3frwPFdy88XgbL+Wl7icHxsjRWkVK+ksKthLETCR+LVTBarPQbNrrfwjISXk+
+evKwno6AvEU6lRd4uTNo8dIi+CkBt0DLkRig75YeFOJxnmVTWSVYpYJrgQDhpBCK6vrKpW
+pU9kqiW+y5EAAAAWc2F0eWFtQERFU0tUT1AtTlZVTEdFRwECAwQF
+-----END OPENSSH PRIVATE KEY-----
+]0;satyam@DESKTOP-NVULGEG: ~/.ssh[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m~/.ssh[00m$ [K]0;satyam@DESKTOP-NVULGEG: ~/.ssh[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m~/.ssh[00m$ [K]0;satyam@DESKTOP-NVULGEG: ~/.ssh[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m~/.ssh[00m$ [K]0;satyam@DESKTOP-NVULGEG: ~/.ssh[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m~/.ssh[00m$ [K]0;satyam@DESKTOP-NVULGEG: ~/.ssh[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m~/.ssh[00m$ [K]0;satyam@DESKTOP-NVULGEG: ~/.ssh[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m~/.ssh[00m$ [K]0;satyam@DESKTOP-NVULGEG: ~/.ssh[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m~/.ssh[00m$ [K]0;satyam@DESKTOP-NVULGEG: ~/.ssh[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m~/.ssh[00m$ [K]0;satyam@DESKTOP-NVULGEG: ~/.ssh[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m~/.ssh[00m$ [K]0;satyam@DESKTOP-NVULGEG: ~/.ssh[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m~/.ssh[00m$ [K]0;satyam@DESKTOP-NVULGEG: ~/.ssh[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m~/.ssh[00m$ [K]0;satyam@DESKTOP-NVULGEG: ~/.ssh[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m~/.ssh[00m$ [K]0;satyam@DESKTOP-NVULGEG: ~/.ssh[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m~/.ssh[00m$ [K]0;satyam@DESKTOP-NVULGEG: ~/.ssh[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m~/.ssh[00m$ cat id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC68YSpaT4U+BpoVlhwk4Xam3Rq87Nrnt35jwklj33Iu6LWS7PjkYdJhUq8LHP0uaz47abnf2680OLxPg1Zbyi5hQQ/AQGqGkUKy979Xbwv9tWfHE8mcpqXDtWWR+uyXmdYXlpnjfM0fyHTvfhNgoHYd6TIOsnJcf9BhbERju7JTTvRv4wT5MT2pSPH7GMaDh9bloAGtJ6BKM0Zqe1cdGxHXefF1wH8TQzLLcpd3UZAay59RYEIdl5zhbQXzsGoczFXiGMzVqHL3OUvtM4Uy69cfFusfn8j30gvnMFIbkSKyNqAD8zrZ8EO+eicEF2XnO+hn048ZU8o/0Ncuw5FubQP3l7AiJzV8ALBAYdmlYnYXTa4F3iWNJO2yrmd490xArFavKvgGPAPssyEwdQeLQo09l3XsaOjAjA5UrOTRt88QSQ7H2T74FcivRH3npAHGki+DM5f20OFyLyNnpBbDqIQwrD5IsM6+zZv1ZkRCAQQ283BHbbIjfCI+PeRP4Eph6hGGFNcXMgiBqDDcjofskkmoC5Z5lfLWnjczfoq2T4Wjh7YOaz1+EhURfXTJk4HjFS+thyGgoNHdYz/zXuAU0MOxRNLDh3nYK72iGl24g9W3bVunHJbIdzlY4GyEOKo7EeG0klydb5j7cwhp9JTg4WH/w3npv5tU/OfNm58UfTHRQ== satyam@DESKTOP-NVULGEG
+]0;satyam@DESKTOP-NVULGEG: ~/.ssh[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m~/.ssh[00m$ cd ..
+]0;satyam@DESKTOP-NVULGEG: ~[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m~[00m$ cd /mnt/c/Users/l[Kl[Kksaty
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty[00m$ cd my+p[K[K_proej[K[Kject
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git co[Klone cd my_project/mnt/c/Users/ksaty..[Kat id_rsa.pub[Kls[Kcd ~/.sshhome`     
+EXIT
+exit[A[A]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ [C[C[Csatyam
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd /satyam[2Phomesatyamls[Kcd /homels[Kcd /satyam[1Psatyam[1P/home/satyam..[K/ssh-keygen -t rsa -b 4096git@github.com:ksat-ta/test-tamplep.git clone https://github.com/ksat-ta/test-tamplep.git[14P@github.com:ksat-ta/test-tamplep.git[Cgit@github.com:ksat-ta/test-tamplep.gitigit@github.com:ksat-ta/test-tamplep.gittgit@github.com:ksat-ta/test-tamplep.git git@github.com:ksat-ta/test-tamplep.gitcgit@github.com:ksat-ta/test-tamplep.gitlgit@github.com:ksat-ta/test-tamplep.gitogit@github.com:ksat-ta/test-tamplep.gitngit@github.com:ksat-ta/test-tamplep.gitegit@github.com:ksat-ta/test-tamplep.git git@github.com:ksat-ta/test-tamplep.git
+Cloning into 'test-tamplep'...
+The authenticity of host 'github.com (20.207.73.82)' can't be established.
+ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com,20.207.73.82' (ECDSA) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git clone git@github.com:ksat-ta/test-tamplep.gitcd my_project[Kgit clone git@github.com:ksat-ta/test-tamplep.git[1Pgit@github.com:ksat-ta/test-tamplep.git[1Pgit@github.com:ksat-ta/test-tamplep.git[1Pgit@github.com:ksat-ta/test-tamplep.git[1Pgit@github.com:ksat-ta/test-tamplep.git[1Pgit@github.com:ksat-ta/test-tamplep.git[1Pgit@github.com:ksat-ta/test-tamplep.git[1Pgit@github.com:ksat-ta/test-tamplep.git[1Pgit@github.com:ksat-ta/test-tamplep.git[1Pgit@github.com:ksat-ta/test-tamplep.git[1Pit@github.com:ksat-ta/test-tamplep.git
+bash: git@github.com:ksat-ta/test-tamplep.git: No such file or directory
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git@github.com:ksat-ta/test-tamplep.git[1Pep.git[1Pep.gitlep.git[Cgit@github.com:ksat-ta/test-tamlep.gitigit@github.com:ksat-ta/test-tamlep.gittgit@github.com:ksat-ta/test-tamlep.git git@github.com:ksat-ta/test-tamlep.gitcgit@github.com:ksat-ta/test-tamlep.gitlgit@github.com:ksat-ta/test-tamlep.gitogit@github.com:ksat-ta/test-tamlep.gitngit@github.com:ksat-ta/test-tamlep.gitegit@github.com:ksat-ta/test-tamlep.git git@github.com:ksat-ta/test-tamlep.git
+Cloning into 'test-tamlep'...
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ ssh -T git@github.com
+Hi ksat-ta! You've successfully authenticated, but GitHub does not provide shell access.
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git remote setr[Kt[K-url origin [5Pssh -T git@github.comgit clone git@github.com:ksat-ta/test-tamlep.git[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ 
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ ssh -T git@github.comgit clone git@github.com:ksat-ta/test-tamlep.git[1P git@github.com:ksat-ta/test-tamlep.git[1P git@github.com:ksat-ta/test-tamlep.git[1P git@github.com:ksat-ta/test-tamlep.git[1P git@github.com:ksat-ta/test-tamlep.git[1P git@github.com:ksat-ta/test-tamlep.gitr git@github.com:ksat-ta/test-tamlep.gite git@github.com:ksat-ta/test-tamlep.gitm git@github.com:ksat-ta/test-tamlep.gito git@github.com:ksat-ta/test-tamlep.gitt git@github.com:ksat-ta/test-tamlep.gite git@github.com:ksat-ta/test-tamlep.git[C git@github.com:ksat-ta/test-tamlep.gits git@github.com:ksat-ta/test-tamlep.gite git@github.com:ksat-ta/test-tamlep.gitt git@github.com:ksat-ta/test-tamlep.git- git@github.com:ksat-ta/test-tamlep.gitu git@github.com:ksat-ta/test-tamlep.gitr git@github.com:ksat-ta/test-tamlep.gitt git@github.com:ksat-ta/test-tamlep.gitl git@github.com:ksat-ta/test-tamlep.git[1P git@github.com:ksat-ta/test-tamlep.git[1P git@github.com:ksat-ta/test-tamlep.gitl git@github.com:ksat-ta/test-tamlep.git[C git@github.com:ksat-ta/test-tamlep.gito git@github.com:ksat-ta/test-tamlep.gitr git@github.com:ksat-ta/test-tamlep.giti git@github.com:ksat-ta/test-tamlep.gitg git@github.com:ksat-ta/test-tamlep.giti git@github.com:ksat-ta/test-tamlep.gitn git@github.com:ksat-ta/test-tamlep.git
+fatal: No such remote 'origin'
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git remote set-url origin git@github.com:ksat-ta/test-tamlep.git[1P git@github.com:ksat-ta/test-tamlep.git[1P git@github.com:ksat-ta/test-tamlep.git[1P git@github.com:ksat-ta/test-tamlep.git[1P git@github.com:ksat-ta/test-tamlep.git[1P git@github.com:ksat-ta/test-tamlep.git[1P git@github.com:ksat-ta/test-tamlep.git[1Pgit@github.com:ksat-ta/test-tamlep.git
+usage: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    --push                manipulate push URLs
+    --add                 add URL
+    --delete              delete URLs
+
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git config
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --default <value>     with --get, use default value when missing entry
+
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git config --list
+[?1h=user.name=Satyam Kumar[m
+user.email=satyam.kumar@tigeranalytics.com[m
+core.editor=emacs[m
+init.defaultbranch=main[m
+core.repositoryformatversion=0[m
+core.filemode=false[m
+core.bare=false[m
+core.logallrefupdates=true[m
+core.ignorecase=true[m
+[K[?1l>]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git remote -v
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ GIT_SSH
+GIT_SSH: command not found
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git remote
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git remote --help
+[?1049h[22;0;0t[?1h=GIT-REMOTE(1)                                         Git Manual                                        GIT-REMOTE(1)[m
+[m
+[1mNAME[0m[m
+       git-remote - Manage set of tracked repositories[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mremote[24m [-v | --verbose][m
+       [4mgit[24m [4mremote[24m [4madd[24m [-t <branch>] [-m <master>] [-f] [--[no-]tags] [--mirror=<fetch|push>] <name> <url>[m
+       [4mgit[24m [4mremote[24m [4mrename[24m <old> <new>[m
+       [4mgit[24m [4mremote[24m [4mremove[24m <name>[m
+       [4mgit[24m [4mremote[24m [4mset-head[24m <name> (-a | --auto | -d | --delete | <branch>)[m
+       [4mgit[24m [4mremote[24m [4mset-branches[24m [--add] <name> <branch>...[m
+       [4mgit[24m [4mremote[24m [4mget-url[24m [--push] [--all] <name>[m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [--push] <name> <newurl> [<oldurl>][m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [4m--add[24m [--push] <name> <newurl>[m
+[7m Manual page git-remote(1) line 1 (press h for help or q to quit)[27m[K...skipping...
+GIT-REMOTE(1)                                         Git Manual                                        GIT-REMOTE(1)[m
+[m
+[1mNAME[0m[m
+       git-remote - Manage set of tracked repositories[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mremote[24m [-v | --verbose][m
+       [4mgit[24m [4mremote[24m [4madd[24m [-t <branch>] [-m <master>] [-f] [--[no-]tags] [--mirror=<fetch|push>] <name> <url>[m
+       [4mgit[24m [4mremote[24m [4mrename[24m <old> <new>[m
+       [4mgit[24m [4mremote[24m [4mremove[24m <name>[m
+       [4mgit[24m [4mremote[24m [4mset-head[24m <name> (-a | --auto | -d | --delete | <branch>)[m
+       [4mgit[24m [4mremote[24m [4mset-branches[24m [--add] <name> <branch>...[m
+       [4mgit[24m [4mremote[24m [4mget-url[24m [--push] [--all] <name>[m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [--push] <name> <newurl> [<oldurl>][m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [4m--add[24m [--push] <name> <newurl>[m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [4m--delete[24m [--push] <name> <url>[m
+[7m Manual page git-remote(1) line 1 (press h for help or q to quit)[27m[K...skipping...
+GIT-REMOTE(1)                                         Git Manual                                        GIT-REMOTE(1)[m
+[m
+[1mNAME[0m[m
+       git-remote - Manage set of tracked repositories[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mremote[24m [-v | --verbose][m
+       [4mgit[24m [4mremote[24m [4madd[24m [-t <branch>] [-m <master>] [-f] [--[no-]tags] [--mirror=<fetch|push>] <name> <url>[m
+       [4mgit[24m [4mremote[24m [4mrename[24m <old> <new>[m
+       [4mgit[24m [4mremote[24m [4mremove[24m <name>[m
+       [4mgit[24m [4mremote[24m [4mset-head[24m <name> (-a | --auto | -d | --delete | <branch>)[m
+       [4mgit[24m [4mremote[24m [4mset-branches[24m [--add] <name> <branch>...[m
+       [4mgit[24m [4mremote[24m [4mget-url[24m [--push] [--all] <name>[m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [--push] <name> <newurl> [<oldurl>][m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [4m--add[24m [--push] <name> <newurl>[m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [4m--delete[24m [--push] <name> <url>[m
+       [4mgit[24m [4mremote[24m [-v | --verbose] [4mshow[24m [-n] <name>...[m
+[7m Manual page git-remote(1) line 1 (press h for help or q to quit)[27m[K...skipping...
+GIT-REMOTE(1)                                         Git Manual                                        GIT-REMOTE(1)[m
+[m
+[1mNAME[0m[m
+       git-remote - Manage set of tracked repositories[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mremote[24m [-v | --verbose][m
+       [4mgit[24m [4mremote[24m [4madd[24m [-t <branch>] [-m <master>] [-f] [--[no-]tags] [--mirror=<fetch|push>] <name> <url>[m
+       [4mgit[24m [4mremote[24m [4mrename[24m <old> <new>[m
+       [4mgit[24m [4mremote[24m [4mremove[24m <name>[m
+       [4mgit[24m [4mremote[24m [4mset-head[24m <name> (-a | --auto | -d | --delete | <branch>)[m
+       [4mgit[24m [4mremote[24m [4mset-branches[24m [--add] <name> <branch>...[m
+       [4mgit[24m [4mremote[24m [4mget-url[24m [--push] [--all] <name>[m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [--push] <name> <newurl> [<oldurl>][m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [4m--add[24m [--push] <name> <newurl>[m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [4m--delete[24m [--push] <name> <url>[m
+       [4mgit[24m [4mremote[24m [-v | --verbose] [4mshow[24m [-n] <name>...[m
+       [4mgit[24m [4mremote[24m [4mprune[24m [-n | --dry-run] <name>...[m
+[7m Manual page git-remote(1) line 1 (press h for help or q to quit)[27m[K...skipping...
+GIT-REMOTE(1)                                         Git Manual                                        GIT-REMOTE(1)[m
+[m
+[1mNAME[0m[m
+       git-remote - Manage set of tracked repositories[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mremote[24m [-v | --verbose][m
+       [4mgit[24m [4mremote[24m [4madd[24m [-t <branch>] [-m <master>] [-f] [--[no-]tags] [--mirror=<fetch|push>] <name> <url>[m
+       [4mgit[24m [4mremote[24m [4mrename[24m <old> <new>[m
+       [4mgit[24m [4mremote[24m [4mremove[24m <name>[m
+       [4mgit[24m [4mremote[24m [4mset-head[24m <name> (-a | --auto | -d | --delete | <branch>)[m
+       [4mgit[24m [4mremote[24m [4mset-branches[24m [--add] <name> <branch>...[m
+       [4mgit[24m [4mremote[24m [4mget-url[24m [--push] [--all] <name>[m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [--push] <name> <newurl> [<oldurl>][m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [4m--add[24m [--push] <name> <newurl>[m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [4m--delete[24m [--push] <name> <url>[m
+       [4mgit[24m [4mremote[24m [-v | --verbose] [4mshow[24m [-n] <name>...[m
+       [4mgit[24m [4mremote[24m [4mprune[24m [-n | --dry-run] <name>...[m
+       [4mgit[24m [4mremote[24m [-v | --verbose] [4mupdate[24m [-p | --prune] [(<group> | <remote>)...][m
+[7m Manual page git-remote(1) line 1 (press h for help or q to quit)[27m[K...skipping...
+GIT-REMOTE(1)                                         Git Manual                                        GIT-REMOTE(1)[m
+[m
+[1mNAME[0m[m
+       git-remote - Manage set of tracked repositories[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mremote[24m [-v | --verbose][m
+       [4mgit[24m [4mremote[24m [4madd[24m [-t <branch>] [-m <master>] [-f] [--[no-]tags] [--mirror=<fetch|push>] <name> <url>[m
+       [4mgit[24m [4mremote[24m [4mrename[24m <old> <new>[m
+       [4mgit[24m [4mremote[24m [4mremove[24m <name>[m
+       [4mgit[24m [4mremote[24m [4mset-head[24m <name> (-a | --auto | -d | --delete | <branch>)[m
+       [4mgit[24m [4mremote[24m [4mset-branches[24m [--add] <name> <branch>...[m
+       [4mgit[24m [4mremote[24m [4mget-url[24m [--push] [--all] <name>[m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [--push] <name> <newurl> [<oldurl>][m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [4m--add[24m [--push] <name> <newurl>[m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [4m--delete[24m [--push] <name> <url>[m
+       [4mgit[24m [4mremote[24m [-v | --verbose] [4mshow[24m [-n] <name>...[m
+       [4mgit[24m [4mremote[24m [4mprune[24m [-n | --dry-run] <name>...[m
+       [4mgit[24m [4mremote[24m [-v | --verbose] [4mupdate[24m [-p | --prune] [(<group> | <remote>)...][m
+[m
+[7m Manual page git-remote(1) line 1 (press h for help or q to quit)[27m[K...skipping...
+GIT-REMOTE(1)                                         Git Manual                                        GIT-REMOTE(1)[m
+[m
+[1mNAME[0m[m
+       git-remote - Manage set of tracked repositories[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mremote[24m [-v | --verbose][m
+       [4mgit[24m [4mremote[24m [4madd[24m [-t <branch>] [-m <master>] [-f] [--[no-]tags] [--mirror=<fetch|push>] <name> <url>[m
+       [4mgit[24m [4mremote[24m [4mrename[24m <old> <new>[m
+       [4mgit[24m [4mremote[24m [4mremove[24m <name>[m
+       [4mgit[24m [4mremote[24m [4mset-head[24m <name> (-a | --auto | -d | --delete | <branch>)[m
+       [4mgit[24m [4mremote[24m [4mset-branches[24m [--add] <name> <branch>...[m
+       [4mgit[24m [4mremote[24m [4mget-url[24m [--push] [--all] <name>[m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [--push] <name> <newurl> [<oldurl>][m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [4m--add[24m [--push] <name> <newurl>[m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [4m--delete[24m [--push] <name> <url>[m
+       [4mgit[24m [4mremote[24m [-v | --verbose] [4mshow[24m [-n] <name>...[m
+       [4mgit[24m [4mremote[24m [4mprune[24m [-n | --dry-run] <name>...[m
+       [4mgit[24m [4mremote[24m [-v | --verbose] [4mupdate[24m [-p | --prune] [(<group> | <remote>)...][m
+[m
+[1mDESCRIPTION[0m[m
+[7m Manual page git-remote(1) line 1 (press h for help or q to quit)[27m[K...skipping...
+GIT-REMOTE(1)                                         Git Manual                                        GIT-REMOTE(1)[m
+[m
+[1mNAME[0m[m
+       git-remote - Manage set of tracked repositories[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mremote[24m [-v | --verbose][m
+       [4mgit[24m [4mremote[24m [4madd[24m [-t <branch>] [-m <master>] [-f] [--[no-]tags] [--mirror=<fetch|push>] <name> <url>[m
+       [4mgit[24m [4mremote[24m [4mrename[24m <old> <new>[m
+       [4mgit[24m [4mremote[24m [4mremove[24m <name>[m
+       [4mgit[24m [4mremote[24m [4mset-head[24m <name> (-a | --auto | -d | --delete | <branch>)[m
+       [4mgit[24m [4mremote[24m [4mset-branches[24m [--add] <name> <branch>...[m
+       [4mgit[24m [4mremote[24m [4mget-url[24m [--push] [--all] <name>[m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [--push] <name> <newurl> [<oldurl>][m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [4m--add[24m [--push] <name> <newurl>[m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [4m--delete[24m [--push] <name> <url>[m
+       [4mgit[24m [4mremote[24m [-v | --verbose] [4mshow[24m [-n] <name>...[m
+       [4mgit[24m [4mremote[24m [4mprune[24m [-n | --dry-run] <name>...[m
+       [4mgit[24m [4mremote[24m [-v | --verbose] [4mupdate[24m [-p | --prune] [(<group> | <remote>)...][m
+[m
+[1mDESCRIPTION[0m[m
+       Manage the set of repositories ("remotes") whose branches you track.[m
+[7m Manual page git-remote(1) line 1 (press h for help or q to quit)[27m[K...skipping...
+GIT-REMOTE(1)                                         Git Manual                                        GIT-REMOTE(1)[m
+[m
+[1mNAME[0m[m
+       git-remote - Manage set of tracked repositories[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mremote[24m [-v | --verbose][m
+       [4mgit[24m [4mremote[24m [4madd[24m [-t <branch>] [-m <master>] [-f] [--[no-]tags] [--mirror=<fetch|push>] <name> <url>[m
+       [4mgit[24m [4mremote[24m [4mrename[24m <old> <new>[m
+       [4mgit[24m [4mremote[24m [4mremove[24m <name>[m
+       [4mgit[24m [4mremote[24m [4mset-head[24m <name> (-a | --auto | -d | --delete | <branch>)[m
+       [4mgit[24m [4mremote[24m [4mset-branches[24m [--add] <name> <branch>...[m
+       [4mgit[24m [4mremote[24m [4mget-url[24m [--push] [--all] <name>[m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [--push] <name> <newurl> [<oldurl>][m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [4m--add[24m [--push] <name> <newurl>[m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [4m--delete[24m [--push] <name> <url>[m
+       [4mgit[24m [4mremote[24m [-v | --verbose] [4mshow[24m [-n] <name>...[m
+       [4mgit[24m [4mremote[24m [4mprune[24m [-n | --dry-run] <name>...[m
+       [4mgit[24m [4mremote[24m [-v | --verbose] [4mupdate[24m [-p | --prune] [(<group> | <remote>)...][m
+[m
+[1mDESCRIPTION[0m[m
+       Manage the set of repositories ("remotes") whose branches you track.[m
+[m
+[7m Manual page git-remote(1) line 1 (press h for help or q to quit)[27m[K...skipping...
+GIT-REMOTE(1)                                         Git Manual                                        GIT-REMOTE(1)[m
+[m
+[1mNAME[0m[m
+       git-remote - Manage set of tracked repositories[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mremote[24m [-v | --verbose][m
+       [4mgit[24m [4mremote[24m [4madd[24m [-t <branch>] [-m <master>] [-f] [--[no-]tags] [--mirror=<fetch|push>] <name> <url>[m
+       [4mgit[24m [4mremote[24m [4mrename[24m <old> <new>[m
+       [4mgit[24m [4mremote[24m [4mremove[24m <name>[m
+       [4mgit[24m [4mremote[24m [4mset-head[24m <name> (-a | --auto | -d | --delete | <branch>)[m
+       [4mgit[24m [4mremote[24m [4mset-branches[24m [--add] <name> <branch>...[m
+       [4mgit[24m [4mremote[24m [4mget-url[24m [--push] [--all] <name>[m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [--push] <name> <newurl> [<oldurl>][m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [4m--add[24m [--push] <name> <newurl>[m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [4m--delete[24m [--push] <name> <url>[m
+       [4mgit[24m [4mremote[24m [-v | --verbose] [4mshow[24m [-n] <name>...[m
+       [4mgit[24m [4mremote[24m [4mprune[24m [-n | --dry-run] <name>...[m
+       [4mgit[24m [4mremote[24m [-v | --verbose] [4mupdate[24m [-p | --prune] [(<group> | <remote>)...][m
+[m
+[1mDESCRIPTION[0m[m
+       Manage the set of repositories ("remotes") whose branches you track.[m
+[m
+[1mOPTIONS[0m[m
+[7m Manual page git-remote(1) line 1 (press h for help or q to quit)[27m[K...skipping...
+GIT-REMOTE(1)                                         Git Manual                                        GIT-REMOTE(1)[m
+[m
+[1mNAME[0m[m
+       git-remote - Manage set of tracked repositories[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mremote[24m [-v | --verbose][m
+       [4mgit[24m [4mremote[24m [4madd[24m [-t <branch>] [-m <master>] [-f] [--[no-]tags] [--mirror=<fetch|push>] <name> <url>[m
+       [4mgit[24m [4mremote[24m [4mrename[24m <old> <new>[m
+       [4mgit[24m [4mremote[24m [4mremove[24m <name>[m
+       [4mgit[24m [4mremote[24m [4mset-head[24m <name> (-a | --auto | -d | --delete | <branch>)[m
+       [4mgit[24m [4mremote[24m [4mset-branches[24m [--add] <name> <branch>...[m
+       [4mgit[24m [4mremote[24m [4mget-url[24m [--push] [--all] <name>[m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [--push] <name> <newurl> [<oldurl>][m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [4m--add[24m [--push] <name> <newurl>[m
+       [4mgit[24m [4mremote[24m [4mset-url[24m [4m--delete[24m [--push] <name> <url>[m
+       [4mgit[24m [4mremote[24m [-v | --verbose] [4mshow[24m [-n] <name>...[m
+       [4mgit[24m [4mremote[24m [4mprune[24m [-n | --dry-run] <name>...[m
+       [4mgit[24m [4mremote[24m [-v | --verbose] [4mupdate[24m [-p | --prune] [(<group> | <remote>)...][m
+[m
+[1mDESCRIPTION[0m[m
+       Manage the set of repositories ("remotes") whose branches you track.[m
+[m
+[1mOPTIONS[0m[m
+       -v, --verbose[m
+[7m Manual page git-remote(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git remote --help[K[K[K[Kall
+error: unknown option `all'
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git remote --all[K[Kdd help[K[3PGIT_SSHgit remote -vconfig --list[Kremote set-url git@github.com:ksat-ta/test-tamlep.gitorigin git@github.com:ksat-ta/test-tamlep.git[C[1P git@github.com:ksat-ta/test-tamlep.git[1P git@github.com:ksat-ta/test-tamlep.git[1P git@github.com:ksat-ta/test-tamlep.git[1P git@github.com:ksat-ta/test-tamlep.git[1P git@github.com:ksat-ta/test-tamlep.git[1P git@github.com:ksat-ta/test-tamlep.git- git@github.com:ksat-ta/test-tamlep.git- git@github.com:ksat-ta/test-tamlep.gita git@github.com:ksat-ta/test-tamlep.gitd git@github.com:ksat-ta/test-tamlep.gitd git@github.com:ksat-ta/test-tamlep.git
+usage: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    --push                manipulate push URLs
+    --add                 add URL
+    --delete              delete URLs
+
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git remote set-url --add git@github.com:ksat-ta/test-tamlep.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K-v
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git clo[K[K[K[K[K[K[Kgit remote -vset-url --add git@github.com:ksat-ta/test-tamlep.git--add [Khelp[K[3PGIT_SSHgit remote -vconfig --list[Kremote set-url git@github.com:ksat-ta/test-tamlep.gitorigin git@github.com:ksat-ta/test-tamlep.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cssh -T git@github.com[Kgit clone git@github.com:ksat-ta/test-tamlep.git[9P@github.com:ksat-ta/test-tamplep.git clone git@github.com:ksat-ta/test-tamplep.gitcd my_project[K/mnt/c/Users/ksaty..[Kat id_rsa.pub[Kls[Kcd ~/.sshhome`     
+EXIT
+exit[A[A]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ [C[C[Csatyam
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd /satyam[2Phomesatyamls[Kcd /homels[Kcd /satyam[1Psatyam[1P/home/satyam..[K/ssh-keygen -t rsa -b 4096git@github.com:ksat-ta/test-tamplep.git clone https://github.com/ksat-ta/test-tamplep.gitadd *.c[K[3Pinitcd my_project..[KPicturesls[Kcd Documentsls[Kcd ..OneDrive/Desktop[9Pgit add -hconfig user.name[3P--listglobal init.defaultBranch main[6Pcore.editor emacsuser.email satyam.kumar@tigeranalytics.com[18Pname "Satyam Kumar"[12Plist  --show-originglobal user.name "Satyam Kumar"email satyam.kumar@tigeranalytics.com[25Pcore.editor emacsinit.defaultBranch mainlist[Kuser.name[10Padd -hcd OneDrive/Desktop..[K[3Plscd Documentsls[Kcd Pictures..[Kmy_project[5Pgit initadd *.cclone https://github.com/ksat-ta/test-tamplep.git[14P@github.com:ksat-ta/test-tamplep.git clone https://github.com/ksat-ta/test-tamplep.git
+Cloning into 'test-tamplep'...
+Username for 'https://github.com': f
+Password for 'https://f@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/ksat-ta/test-tamplep.git/'
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git clone https://github.com/ksat-ta/test-tamplep.git[1Plep.git
+Cloning into 'test-tamlep'...
+Username for 'https://github.com': ksat-ta
+Password for 'https://ksat-ta@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/ksat-ta/test-tamlep.git/'
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git config -l
+[?1h=user.name=Satyam Kumar[m
+user.email=satyam.kumar@tigeranalytics.com[m
+core.editor=emacs[m
+init.defaultbranch=main[m
+core.repositoryformatversion=0[m
+core.filemode=false[m
+core.bare=false[m
+core.logallrefupdates=true[m
+core.ignorecase=true[m
+[K[?1l>]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git config -llone https://github.com/ksat-ta/test-tamlep.gitonfig -l[K[K[K[K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git config [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git config [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git config [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git config [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git config [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git config [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git config [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git config [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git config [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git config [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git config [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git config [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git config [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git config --global user.name "ksat-ta"
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git config --global user.name "ksat-ta"l[K
+[?1h=user.name=ksat-ta[m
+user.email=satyam.kumar@tigeranalytics.com[m
+core.editor=emacs[m
+init.defaultbranch=main[m
+core.repositoryformatversion=0[m
+core.filemode=false[m
+core.bare=false[m
+:[K[K[?1l>]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git config -l-global user.name "ksat-ta"l[Klone https://github.com/ksat-ta/test-tamlep.gitplep.git[1Plep.git
+Cloning into 'test-tamlep'...
+Username for 'https://github.com': ksat-ta
+Password for 'https://ksat-ta@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/ksat-ta/test-tamlep.git/'
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git clone https://github.com/ksat-ta/test-tamlep.git
+Cloning into 'test-tamlep'...
+Username for 'https://github.com': satyam.kumar@gmail.      tigeranalytics.com
+Password for 'https://satyam.kumar@tigeranalytics.com@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/ksat-ta/test-tamlep.git/'
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git clone https://github.com/ksat-ta/test-tamlep.gitonfig -l[Klone https://github.com/ksat-ta/test-tamlep.git[Kgit clone https://github.com/ksat-ta/test-tamlep.gitonfig -l[K-global user.name "ksat-ta"l[Klone https://github.com/ksat-ta/test-tamlep.gitplep.gitremote -v[Kset-url --add git@github.com:ksat-ta/test-tamlep.git--add [Khelp[K[3PGIT_SSHgit remote -vconfig --list[Kremote set-url git@github.com:ksat-ta/test-tamlep.gitorigin git@github.com:ksat-ta/test-tamlep.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cssh -T git@github.com[Kgit clone git@github.com:ksat-ta/test-tamlep.git[27Pssh -T git@github.comgit clone git@github.com:ksat-ta/test-tamlep.git[9P@github.com:ksat-ta/test-tamplep.git clone git@github.com:ksat-ta/test-tamlep.git[9P@github.com:ksat-ta/test-tamplep.git clone git@github.com:ksat-ta/test-tamplep.git[10P@github.com:ksat-ta/test-tamplep.git clone git@github.com:ksat-ta/test-tamlep.git
+Cloning into 'test-tamlep'...
+warning: You appear to have cloned an empty repository.
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git init
+Initialized empty Git repository in /mnt/c/Users/ksaty/my_project/.git/
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git init[Kcd test[Kt-tamlep/
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ ls
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git status[K[K[K[K[K[Kinit
+Reinitialized existing Git repository in /mnt/c/Users/ksaty/my_project/test-tamlep/.git/
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git initstatus
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ echo '<My[K[K[KMy Poject[K[K[K[K[Kroject"[K' > Readme[K[K[K[K[KEADME
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mREADME[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git add REE[KADME
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git add REAME
+fatal: pathspec 'REAME' did not match any files
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git ad .
+git: 'ad' is not a git command. See 'git --help'.
+
+The most similar commands are
+	add
+	am
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git ad .[K[Kd .
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git init
+Reinitialized existing Git repository in /mnt/c/Users/ksaty/my_project/test-tamlep/.git/
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git init[K[K[K[Kstatus
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git commit "new commit"
+error: pathspec 'new commit' did not match any file(s) known to git
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git commit "new commit"[K[K[K[K[K[K[K[K[K[K[K[K-m [K[KM main
+error: unknown switch `M'
+usage: git commit [<options>] [--] <pathspec>...
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup <commit>      use autosquash formatted message to fixup specified commit
+    --squash <commit>     use autosquash formatted message to squash specified commit
+    --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+    -s, --signoff         add Signed-off-by:
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <mode>      how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit and commit-msg hooks
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --ahead-behind        compute full ahead/behind values
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git commit -m "firt[Kst commit"
+[master (root-commit) 0be4174] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git t[Kstatus
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git [K[K[K[Kvim README
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;8r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[8;1H"README" 1L, 11C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1HMy Project
+[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [m[8;103H1,1[11CAll[1;1H[?25h[?25l[8;93H~@k[1;1H[8;93H   [1;1H[?25h[?25l[8;93H~@k[1;1H[8;93H   [1;2H[8;105H2[1;2H[?25h[?25l[8;93H~@k[1;2H[8;93H   [1;3H[8;105H3[1;3H[?25h[?25l[8;93H~@k[1;3H[8;93H   [1;4H[8;105H4[1;4H[?25h[?25l[8;93H~@k[1;4H[8;93H   [1;5H[8;105H5[1;5H[?25h[?25l[8;93H~@k[1;5H[8;93H   [1;6H[8;105H6[1;6H[?25h[?25l[8;93H~@k[1;6H[8;93H   [1;7H[8;105H7[1;7H[?25h[?25l[8;93H~@k[1;7H[8;93H   [1;8H[8;105H8[1;8H[?25h[?25l[8;93H~@k[1;8H[8;93H   [1;9H[8;105H9[1;9H[?25h[?25l[8;93H~@k[1;9H[8;93H   [1;10H[8;105H10[1;10H[?25h[?25l[8;93H~@k[1;10H[8;93H   [1;10H[?25h[?25l[8;93H~@k[1;10H[8;93H   [1;10H[?25h[?25l[8;93H<20>[1;10H[8;93H    [1;10H[?25h[?25l[8;93H~@k[1;10H[8;93H   [1;10H[?25h[?25l[8;93H<20>[1;10H[8;93H    [1;10H[?25h[?25l[8;93H~@k[1;10H[8;93H   [1;10H[?25h[?25l[8;93H~@k[1;10H[8;93H   [1;9H[8;105H9 [1;9H[?25h[?25l[8;93H~@k[1;9H[8;93H   [1;8H[8;105H8[1;8H[?25h[?25l[8;93H~@k[1;8H[8;93H   [1;7H[8;105H7[1;7H[?25h[?25l[8;93H~@k[1;7H[8;93H   [1;6H[8;105H6[1;6H[?25h[?25l[8;93H~@k[1;6H[8;93H   [1;5H[8;105H5[1;5H[?25h[?25l[8;93H~@k[1;5H[8;93H   [1;4H[8;105H4[1;4H[?25h[?25l[8;93H~@k[1;4H[8;93H   [1;3H[8;105H3[1;3H[?25h[?25l[8;93H~@k[1;3H[8;93H   [1;2H[8;105H2[1;2H[?25h[?25l[8;93H~@k[1;2H[8;93H   [1;1H[8;105H1[1;1H[?25h[?25l[8;93H~@k[1;1H[8;93H   [1;1H[?25h[?25l[8;93H^M[1;1H[8;93H  [1;1H[?25h[?25l[8;93Hq[1;1H[?25h[?25l[8;94H1[1;1H[8;1H[1mrecording @1[m[8;14H[K[8;103H1,1[11CAll[1;1H[?25h[?25l[8;93H^M[1;1H[8;93H  [1;1H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HMy Project
+[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [m[9;1H[1mrecording @1[m[90C1,1[11CAll[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HMy Project
+[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [m[10;1H[1mrecording @1[m[90C1,1[11CAll[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HMy Project
+[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [m[11;1H[1mrecording @1[m[90C1,1[11CAll[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HMy Project
+[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [m[13;1H[1mrecording @1[m[90C1,1[11CAll[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HMy Project
+[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [m[15;1H[1mrecording @1[m[90C1,1[11CAll[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HMy Project
+[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [m[17;1H[1mrecording @1[m[90C1,1[11CAll[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HMy Project
+[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [m[19;1H[1mrecording @1[m[90C1,1[11CAll[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HMy Project
+[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [20;1H~                                                                                                                       [21;1H~                                                                                                                       [m[22;1H[1mrecording @1[m[90C1,1[11CAll[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HMy Project
+[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [20;1H~                                                                                                                       [21;1H~                                                                                                                       [22;1H~                                                                                                                       [m[23;1H[1mrecording @1[m[90C1,1[11CAll[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HMy Project
+[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [20;1H~                                                                                                                       [21;1H~                                                                                                                       [22;1H~                                                                                                                       [23;1H~                                                                                                                       [m[24;1H[1mrecording @1[m[90C1,1[11CAll[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HMy Project
+[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [20;1H~                                                                                                                       [21;1H~                                                                                                                       [22;1H~                                                                                                                       [23;1H~                                                                                                                       [24;1H~                                                                                                                       [m[25;1H[1mrecording @1[m[90C1,1[11CAll[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HMy Project
+[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [20;1H~                                                                                                                       [21;1H~                                                                                                                       [22;1H~                                                                                                                       [23;1H~                                                                                                                       [24;1H~                                                                                                                       [25;1H~                                                                                                                       [m[26;1H[1mrecording @1[m[90C1,1[11CAll[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HMy Project
+[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [20;1H~                                                                                                                       [21;1H~                                                                                                                       [22;1H~                                                                                                                       [23;1H~                                                                                                                       [24;1H~                                                                                                                       [25;1H~                                                                                                                       [26;1H~                                                                                                                       [m[27;1H[1mrecording @1[m[90C1,1[11CAll[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HMy Project
+[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [20;1H~                                                                                                                       [21;1H~                                                                                                                       [22;1H~                                                                                                                       [23;1H~                                                                                                                       [24;1H~                                                                                                                       [25;1H~                                                                                                                       [26;1H~                                                                                                                       [27;1H~                                                                                                                       [m[28;1H[1mrecording @1[m[90C1,1[11CAll[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HMy Project
+[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [20;1H~                                                                                                                       [21;1H~                                                                                                                       [22;1H~                                                                                                                       [23;1H~                                                                                                                       [24;1H~                                                                                                                       [25;1H~                                                                                                                       [26;1H~                                                                                                                       [27;1H~                                                                                                                       [28;1H~                                                                                                                       [m[29;1H[1mrecording @1[m[90C1,1[11CAll[1;1H[?25h[?25l[29;93H^Z[1;1H[29;1H
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+[1]+  Stopped                 vim README
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ cat RE[K[K[K[K[K[Knano README
+[?2004h[?1049h[22;0;0t[1;29r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[27d(B[0;7mFile README is being edited by satyam (with VIM 8.1, PID 256); open anyway?                                             [28;1H Y(B[m Yes[29d(B[0;7m N(B[m No[29;17H(B[0;7m^C(B[m Cancel[27;76H[?12l[?25h[?25l[27;53H[1K (B[0;7m[ Reading... ](B[m[K[27;53H(B[0;7m[ Read 1 line ](B[m[H(B[0;7m  GNU nano 4.8                                             README                                                       [1;119H(B[m[28d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[29d(B[0;7m^X(B[m Exit[29;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[27d[2d[39;49m(B[mMy Project[?12l[?25h[?25lM[?12l[?25h[?25ly[?12l[?25h[?25l [?12l[?25h[?25lP[?12l[?25h[?25lr[?12l[?25h[?25lo[?12l[?25h[?25lj[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25l[3d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;111H(B[0;7mModified(B[m[3d [?12l[?25h[?25lq[?12l[?25h[?25l[K [?12l[?25h[?25l[?12l[?25h[?25l[2;11H[?12l[?25h[?25l [?12l[?25h[?25l1[?12l[?25h[?25l [?12l[?25h[?25l[28;16H[15X[28;31H(B[0;7mM-D(B[m DOS Format[16X[28;61H(B[0;7mM-A(B[m Append[15X[28;93H(B[0;7mB(B[m Backup File[K[29;2H(B[0;7mC(B[m Cancel[16G[15X[29;31H(B[0;7mM-M(B[m Mac Format[16X[29;61H(B[0;7mM-P(B[m Prepend[19X[29;91H(B[0;7m^T(B[m To Files[K[27d(B[0;7mFile Name to Write: README                                                                                              [27;1H(B[m[27;27H[?12l[?25h[?25l[27;53H[1K (B[0;7m[ Writing... ](B[m[K[1;111H(B[0;7m        (B[m[27;53H(B[0;7m[ Wrote 1 line ](B[m[28;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Mark Text[29;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo       (B[0;7mM-6(B[m Copy Text[27d[2;14H[?12l[?25h[?25l[28;16H[15X[28;31H(B[0;7mM-D(B[m DOS Format[16X[28;61H(B[0;7mM-A(B[m Append[15X[28;93H(B[0;7mB(B[m Backup File[K[29;2H(B[0;7mC(B[m Cancel[16G[15X[29;31H(B[0;7mM-M(B[m Mac Format[16X[29;61H(B[0;7mM-P(B[m Prepend[19X[29;91H(B[0;7m^T(B[m To Files[K[27d(B[0;7mFile Name to Write: README                                                                                              [27;1H(B[m[27;27H[?12l[?25h[?25l(B[0;7m.(B[m[27;28H[?12l[?25h[?25l(B[0;7mm(B[m[27;29H[?12l[?25h[?25l(B[0;7m (B[m[27;28H[?12l[?25h[?25l(B[0;7m (B[m[27;27H[?12l[?25h[?25l[27;27H[?12l[?25h[?25l[27;53H[1K (B[0;7m[ Writing... ](B[m[K[1;119H[27;53H(B[0;7m[ Wrote 1 line ](B[m[28;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Mark Text[29;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo       (B[0;7mM-6(B[m Copy Text[27d[2;14H[?12l[?25h[?25l[27d[J[29d[?12l[?25h[29;1H[?1049l[23;0;0t[?1l>[?2004l]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ nano README[1Pvim[C[C[C[C[C[C[Cgit status
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   README[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git status -s
+ [31mM[m README
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git diff
+[?1h=[1mdiff --git a/README b/README[m[m
+[1mindex 56266d3..eaff5b3 100644[m[m
+[1m--- a/README[m[m
+[1m+++ b/README[m[m
+[36m@@ -1 +1 @@[m[m
+[31m-My Project[m[m
+[32m+[m[32mMy Project 1[m[41m [m[m
+[K[?1l>]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git diff --cached
+[?1h=[K[?1l>]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git log --pretty=format: %h [1@"[C[1P[C[C[C % s " [C - - g r a p h 
+[?1h=* 0be4174 first commit[m
+[K[?1l>]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git commit =[K-m "Seconm[K[Knd commit"
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   README[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git status
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   README[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git statuscommit -m "Second commit"[C[C[C[C
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   README[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git commit -m "Second commit"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git add .
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git add .[Kcommit -m "Second commit"status[K
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   README[m
+
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git status[1Padd .[Kcommit -m "Second commit"add[K .status
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   README[m
+
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git status[1Padd .[Kcommit -m "Second commit"status[Kcommit -m "Second commit"
+[master 4574b98] Second commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git commit -m "Second commit"status[K
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git a[Kcommit -man[K[K[K-amend
+hint: Waiting for your editor to close the file... error: cannot run emacs: No such file or directory
+error: unable to start editor 'emacs'
+Please supply the message using either -m or -F option.
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git commit --amendgit [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit restore README
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git restore READMEcommit --amend[8Pstatus
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git rmeote
+git: 'rmeote' is not a git command. See 'git --help'.
+
+The most similar command is
+	remote
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git rmeote
+git: 'rmeote' is not a git command. See 'git --help'.
+
+The most similar command is
+	remote
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git rmeote[1Pte[1Pte[1Pteetemteote
+origin
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git remote -v
+origin	git@github.com:ksat-ta/test-tamlep.git (fetch)
+origin	git@github.com:ksat-ta/test-tamlep.git (push)
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git remote -v[Kmeotestatusrestore README[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpush origin master
+Enumerating objects: 6, done.
+Counting objects:  16% (1/6)Counting objects:  33% (2/6)Counting objects:  50% (3/6)Counting objects:  66% (4/6)Counting objects:  83% (5/6)Counting objects: 100% (6/6)Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects:  50% (1/2)Compressing objects: 100% (2/2)Compressing objects: 100% (2/2), done.
+Writing objects:  16% (1/6)Writing objects:  33% (2/6)Writing objects:  50% (3/6)Writing objects:  66% (4/6)Writing objects:  83% (5/6)Writing objects: 100% (6/6)Writing objects: 100% (6/6), 455 bytes | 151.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To github.com:ksat-ta/test-tamlep.git
+ * [new branch]      master -> master
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git push origin master[9Premote -vpush origin master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kremote show mas[K[K[Korign
+fatal: 'orign' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git remote show orign[Kin
+* remote origin
+  Fetch URL: git@github.com:ksat-ta/test-tamlep.git
+  Push  URL: git@github.com:ksat-ta/test-tamlep.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local branch configured for 'git pull':
+    master merges with remote master
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git remote rename pb paul
+fatal: No such remote: 'pb'
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git remote rename pb paul[K[K[K[K[K[K[K[K paul
+usage: git remote rename <old> <new>
+
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git remote rename paul[C[K[K[K[K[K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git remote rename [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git remote rename [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git remote rename [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git remote rename [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git remote rename [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git remote rename [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git remote rename [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git remote rename [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git remote rename [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git remote rename [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git remote rename [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git remote rename [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git remote rename [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git remote rename [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git remote rename [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git remote rename [K[K[K[K[K[K[K[K[K[K[K[K[K[Ktag
+[?1h=[K[?1l>]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git tag -l
+[?1h=[K[?1l>]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git tag -l[K[K-a v!.4 [K[K[K[K1.4 -m "M[Ky[Kmy version 1.4"
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git tag -a v1.4 -m "my version 1.4"l[K
+[?1h=v1.4[m
+[K[?1l>]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git tag -l[Kd v!.4
+bash: !.4: event not found
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git tag -l [K[Kd 1.[K[Kv1.4
+Deleted tag 'v1.4' (was c0a9c65)
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git tag -d v1.4l[Ka v1.4 -m "my version 1.4"l[Ka v1.4 -m "my version 1.4"
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git tag -a v1.4 -m "my version 1.4"d v1.4[Kl[K[K[K[K[K[K[Kconfig --globl[Kal alias.co  h[Kce[K[K[Kce[Kheclk[K[Kkout
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git config --global alias.co checkout[K[K[K[K[K[K[K[K[K[K[Kbr branh[Kchg[K
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git config --global alias.br branch[K[K[K[K[K[K[K[K[Kcu[K[Kci commit
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git config --global alias.ci commit[K[K[K[K[K[K[K[K[Kst sttus[K[K[Katuis[K[Ks
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git config --global alias.st status[K[K[K[K[K[K[K[K[Kunt[Kstage 'resert[Kt[K[Kt HEAD --'
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git add README test.rb LICENSE
+fatal: pathspec 'test.rb' did not match any files
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git branch testing
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git --log --oneline --decorate
+unknown option: --log
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git --log --oneline --decorate[1P[1P
+[?1h=[33m4574b98[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;33mtag: v1.4[m[33m, [m[1;31morigin/master[m[33m, [m[1;32mtesting[m[33m)[m Second commit[m
+[33m0be4174[m first commit[m
+[K[?1l>]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git checkot testinmg[K[Kg
+git: 'checkot' is not a git command. See 'git --help'.
+
+The most similar command is
+	checkout
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git checkot testing[C[1@o[1P[C[1@u
+Switched to branch 'testing'
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git checkout testing[K[K[K[K[K[K[Kmaster
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ [K]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git checkout master[K[K[K[K[K[K[K -b iss553
+Switched to a new branch 'iss553'
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git checkout -b iss553[C[C[C[1P iss553[1P iss553[1Piss553[1P iss553[1P iss553[1P iss553[1P iss553[1P iss553[1P iss553[1P iss553[1P iss553b iss553r iss553a iss553n iss553c iss553h iss553
+fatal: A branch named 'iss553' already exists.
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git branch iss553[1Piss553[1Piss553[1Piss553[1Piss553[1Piss553[1Piss553[1Piss553ciss553hiss553eiss553ciss553kiss553oiss553uiss553tiss553 iss553
+Already on 'iss553'
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git checkout iss553[2Pbranch[C[C[C[C[C[C[C[5@checkout -b[C[C[C[C[C[C[C[3Pmaster
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git checkout masteriss553masteriss553[2Pbranch[C[C[C[C[C[C[C[5@checkout -b[C[C[C[C[C[C[C[K[K[K[K[K[Khotfic
+Switched to a new branch 'hotfic'
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git checkout -b hotfic[Kx
+Switched to a new branch 'hotfix'
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git checkout -b hotfix[K[K[K[K[K[K[K[K[Ka[Kmaster
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git checkout master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmerge hotfix
+Already up to date.
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git mergetool
+
+This message is displayed because 'merge.tool' is not configured.
+See 'git mergetool --tool-help' or 'git help config' for more details.
+'git mergetool' will now attempt to use one of the following tools:
+tortoisemerge emerge vimdiff
+No files need merging
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git branch
+[?1h=  hotfic[m[m
+  hotfix[m[m
+  iss553[m[m
+* [32mmaster[m[m
+  testing[m[m
+[K[?1l>]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git branch -v
+[?1h=  hotfic [m 4574b98 Second commit[m
+  hotfix [m 4574b98 Second commit[m
+  iss553 [m 4574b98 Second commit[m
+* [32mmaster [m 4574b98 Second commit[m
+  testing[m 4574b98 Second commit[m
+[K[?1l>]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git btranch [K[K[K[K[K[K[Krancgh[K[Kh --merged[K[Ked
+[?1h=  hotfic[m[m
+  hotfix[m[m
+  iss553[m[m
+* [32mmaster[m[m
+  testing[m[m
+[K[?1l>]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git branch --movc[K[Kve bad[K[K[Kho[Kotfic g[Kht[Kotfixx
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git branch --move hotfic hotfixxerged[Kv[K[Kstatusmergetool[3Pstatusbranch
+[?1h=  hotfix[m[m
+  hotfixx[m[m
+  iss553[m[m
+* [32mmaster[m[m
+  testing[m[m
+[K[?1l>]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git branchg [K[K -all
+error: did you mean `--all` (with two dashes)?
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git branch -all-all
+[?1h=  hotfix[m[m
+  hotfixx[m[m
+  iss553[m[m
+* [32mmaster[m[m
+  testing[m[m
+  [31mremotes/origin/master[m[m
+[K[?1l>]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git push orihin[K[K[Kgin
+Everything up-to-date
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ goi[K[K[Kgit fetch origin
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git fetch origin[K[K[K[K[K[K[K[K[K[K[K[Kbrn=a[K[K[Kanch -vv
+[?1h=  hotfix [m 4574b98 Second commit[m
+  hotfixx[m 4574b98 Second commit[m
+  iss553 [m 4574b98 Second commit[m
+* [32mmaster [m 4574b98 [[34morigin/master[m] Second commit[m
+  testing[m 4574b98 Second commit[m
+[K[?1l>]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git branch -vvfetch origin[K[K[K[K[K[K-all; [K git branch -vv
+error: did you mean `--all` (with two dashes)?
+[?1h=  hotfix [m 4574b98 Second commit[m
+  hotfixx[m 4574b98 Second commit[m
+  iss553 [m 4574b98 Second commit[m
+* [32mmaster [m 4574b98 [[34morigin/master[m] Second commit[m
+  testing[m 4574b98 Second commit[m
+[K[?1l>]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ git rebads[Kse [K[K[K[Kse master
+Current branch master is up to date.
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/test-tamlep[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/test-tamlep[00m$ cd ..
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git clone git@github.com:ksat-ta/tamplep-assignment.git
+Cloning into 'tamplep-assignment'...
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git clone git@github.com:ksat-ta/tamplep-assignment.git[C[1Plep-assignment.git
+Cloning into 'tamlep-assignment'...
+warning: You appear to have cloned an empty repository.
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git init
+Initialized empty Git repository in /mnt/c/Users/ksaty/my_project/.git/
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git add[K[K[Kecho 'My project' > README
+git: 'echo' is not a git command. See 'git --help'.
+
+The most similar command is
+	fetch
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git echo 'My project' > README[1P[1P[1P[1P
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mREADME[m
+	[31mtamlep-assignment/[m
+	[31mtest-tamlep/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project[00m$ cd tamlep-assignment/
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/tamlep-assignment[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/tamlep-assignment[00m$ git init
+Reinitialized existing Git repository in /mnt/c/Users/ksaty/my_project/tamlep-assignment/.git/
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/tamlep-assignment[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/tamlep-assignment[00m$ git initcd tamlep-assignment/[11Pgit statusecho 'My project' > README
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/tamlep-assignment[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/tamlep-assignment[00m$ echo 'My project' > READMEgit init[Kcd tamlep-assignment/[11Pgit status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mREADME[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/tamlep-assignment[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/tamlep-assignment[00m$ git statusecho 'My project' > READMEgit init[Kcd tamlep-assignment/[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit add .
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/tamlep-assignment[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/tamlep-assignment[00m$ git commit -m "SEO[KC[K[K[KFIRST COMMIT'[K"
+[master (root-commit) 0c7fe7e] FIRST COMMIT
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/tamlep-assignment[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/tamlep-assignment[00m$ git psh[K[Kush
+Enumerating objects: 3, done.
+Counting objects:  33% (1/3)Counting objects:  66% (2/3)Counting objects: 100% (3/3)Counting objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 237 bytes | 237.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:ksat-ta/tamlep-assignment.git
+ * [new branch]      master -> master
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/tamlep-assignment[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/tamlep-assignment[00m$ exit
+exit
+There are stopped jobs.
+]0;satyam@DESKTOP-NVULGEG: /mnt/c/Users/ksaty/my_project/tamlep-assignment[01;32msatyam@DESKTOP-NVULGEG[00m:[01;34m/mnt/c/Users/ksaty/my_project/tamlep-assignment[00m$ exit
+exit
+
+Script done on 2023-11-08 16:03:18+05:30 [COMMAND_EXIT_CODE="1"]
